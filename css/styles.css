@@ -7,4 +7,29 @@ body {
 
 h1 {
   color: #333;
+  text-align: center;
+}
+
+#countries-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.country {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  width: 100px;
+  background-color: white;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 3%;
+  font-weight: 550;
+}
+img {
+  width: 100%;
+  border-radius: 5%;
 }
